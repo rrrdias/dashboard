@@ -118,6 +118,7 @@ fig_certificados.update_layout(
 
 # Criar o layout do dashboard
 app = dash.Dash(__name__, server=server)
+server = app.server
 
 app.css.append_css({
     "external_url": "https://fonts.googleapis.com/css2?family=Roboto"
